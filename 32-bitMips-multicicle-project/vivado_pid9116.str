@@ -1,0 +1,1708 @@
+/*
+
+Xilinx Vivado v2020.3 (64-bit) [Major: 2020, Minor: 3]
+SW Build: 3173277 on Wed Apr  7 05:07:49 MDT 2021
+IP Build: 3174024 on Wed Apr  7 23:42:35 MDT 2021
+
+Process ID (PID): 9116
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jul 04 15:50:36 BRT 2021
+Time zone: 	Brasilia Standard Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Colaborador
+User home directory: C:/Users/Colaborador
+User working directory: D:/32-bitMips-master_original8/32-bitMips-master
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.3
+RDI_DATADIR: C:/Xilinx/Vivado/2020.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.3/bin
+
+Vivado preferences file location: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/vivado.xml
+Vivado preferences directory: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/
+Vivado layouts directory: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/32-bitMips-master_original8/32-bitMips-master/vivado.log
+Vivado journal file location: 	D:/32-bitMips-master_original8/32-bitMips-master/vivado.jou
+Engine tmp dir: 	D:/32-bitMips-master_original8/32-bitMips-master/.Xil/Vivado-9116-DESKTOP-2EKH4B3
+
+Xilinx Environment Variables
+----------------------------
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.3
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,074 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2463 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 2369ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2382 ms.
+// bz (cr):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2312 ms.
+// Opening Vivado Project: D:\32-bitMips-master_original8\32-bitMips-master\miTo.xpr. Version: Vivado v2020.3 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 48 MB. Current time: 7/4/21, 3:50:42 PM BRT
+// Tcl Message: open_project D:/32-bitMips-master_original8/32-bitMips-master/miTo.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/32-bitMips-master_original8/32-bitMips-master/miTo.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 107 MB (+110208kb) [00:02:33]
+// [Engine Memory]: 1,074 MB (+974912kb) [00:02:33]
+// [GUI Memory]: 121 MB (+8927kb) [00:02:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  6637 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'. 
+// Project name: miTo; location: D:/32-bitMips-master_original8/32-bitMips-master; part: xcvc1802-viva1596-1LHP-i-L
+// Tcl Message: open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:01:08 . Memory (MB): peak = 1067.531 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation -simset [get_filesets sim_2 ] 
+// Tcl Message: Command: launch_simulation -simset sim_2 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_2' INFO: [SIM-utils-54] Inspecting design source files for 'testebenchc' in fileset 'sim_2'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_2'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj testebenchc_vlog.prj" 
+// Tcl Message: "xvhdl --incr --relax -prj testebenchc_vhdl.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd" into library mito INFO: [VRFC 10-3107] analyzing entity 'control_unit' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:24 . Memory (MB): peak = 1067.531 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '25' seconds INFO: [USF-XSim-3] XSim::Elaborate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xelab -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator v2020.3.0 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis 
+// Tcl Message: Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 Compiling package ieee.numeric_std Compiling package ieee.std_logic_arith Compiling package ieee.std_logic_unsigned Compiling package mito.mito_pkg Compiling module oi.glbl Compiling architecture rtl of entity mito.control_unit [control_unit_default] Compiling architecture rtl of entity mito.data_path [data_path_default] Compiling architecture rtl of entity mito.memory [memory_default] Compiling architecture rtl of entity mito.miTo [mito_default] Compiling architecture behavioral of entity oi.testebenchc 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot testebenchc_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:08 ; elapsed = 00:01:02 . Memory (MB): peak = 1067.531 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '62' seconds INFO: [USF-XSim-4] XSim::Simulate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "testebenchc_behav -key {Behavioral:sim_2:Functional:testebenchc} -tclbatch {testebenchc.tcl} -view {D:/32-bitMips-master_original8/32-bitMips-master/testebench_behav2.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator v2020.3.0 
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// [GUI Memory]: 129 MB (+1561kb) [00:05:03]
+// WARNING: HEventQueue.dispatchEvent() is taking  2476 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 135 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: open_wave_config D:/32-bitMips-master_original8/32-bitMips-master/testebench_behav2.wcfg 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1938 ms.
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 72 MB. Current time: 7/4/21, 3:54:21 PM BRT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source testebenchc.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 1067.531 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'testebenchc_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:39 ; elapsed = 00:02:22 . Memory (MB): peak = 1067.531 ; gain = 0.000 
+// 'd' command handler elapsed time: 142 seconds
+dismissDialog("Run Simulation"); // e
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 19, 345); // n
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 74 MB. Current time: 7/4/21, 3:54:32 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 74 MB. Current time: 7/4/21, 3:54:35 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 74 MB. Current time: 7/4/21, 3:54:36 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:36 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:38 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:40 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:45 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 74 MB. Current time: 7/4/21, 3:54:46 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:48 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:50 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:54:51 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:02 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:07 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:15 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:18 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:19 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:22 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 7/4/21, 3:55:24 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 74 MB. Current time: 7/4/21, 3:55:25 PM BRT
+// Elapsed time: 71 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 72 MB. Current time: 7/4/21, 3:55:43 PM BRT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd)]", 1); // D
+// PAPropertyPanels.initPanels (memory.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), memory_i : memory(rtl) (memory.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), memory_i : memory(rtl) (memory.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("memory.vhd", 265, 158); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1975 ms. Increasing delay to 5925 ms.
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3371 ms. Increasing delay to 10113 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2043 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2179 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7 ms. Decreasing delay to 2007 ms.
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xcvc1802-viva1596-1LHP-i-L Top: miTo 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 75 MB. Current time: 7/4/21, 3:56:42 PM BRT
+// [Engine Memory]: 1,256 MB (+133856kb) [00:07:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,312 MB. GUI used memory: 75 MB. Current time: 7/4/21, 3:57:32 PM BRT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 288ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,422 MB. GUI used memory: 75 MB. Current time: 7/4/21, 3:58:37 PM BRT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,617 MB. GUI used memory: 75 MB. Current time: 7/4/21, 3:59:12 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  3867 ms.
+// TclEventType: ELABORATE_START
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1296ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1297 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2064 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2111 ms.
+// [Engine Memory]: 1,852 MB (+559734kb) [00:10:59]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1352 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1044 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1282 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,944 MB. GUI used memory: 75 MB. Current time: 7/4/21, 4:00:43 PM BRT
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: NOC_COMPILE_STARTED
+// TclEventType: NOC_COMPILE_FINISHED
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 131 MB. Current time: 7/4/21, 4:03:48 PM BRT
+// [Engine Memory]: 2,252 MB (+321754kb) [00:14:39]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_floorplan.xgd elapsed time: 2.2s
+// [GUI Memory]: 150 MB (+14769kb) [00:14:45]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 236 MB (+82308kb) [00:14:49]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_detail.xgd elapsed time: 5.8s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 6.8s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 32s
+// WARNING: updateGUI() is taking  5112 ms.
+// WARNING: updateGUI() is taking  1225 ms.
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (memory.vhd) elapsed time: 0.4s
+// WARNING: HEventQueue.dispatchEvent() is taking  140911 ms.
+// TclEventType: CURR_DESIGN_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  7806 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L 
+// Tcl Message: load Versal unisim library load Versal unisim library --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 1973.961 ; gain = 253.383 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] INFO: [Synth 8-3491] module 'control_unit' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:16' bound to instance 'control_unit_i' of component 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:42] INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] INFO: [Synth 8-3491] module 'data_path' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:17' bound to instance 'data_path_i' of component 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:60] INFO: [Synth 8-638] synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'data_path' (2#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] INFO: [Synth 8-3491] module 'memory' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:17' bound to instance 'memory_i' of component 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:80] INFO: [Synth 8-638] synthesizing module 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'memory' (3#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] INFO: [Synth 8-256] done synthesizing module 'miTo' (4#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:45 ; elapsed = 00:02:50 . Memory (MB): peak = 2599.305 ; gain = 878.727 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:03:43 . Memory (MB): peak = 2617.109 ; gain = 896.531 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:51 ; elapsed = 00:03:43 . Memory (MB): peak = 2617.109 ; gain = 896.531 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.375 . Memory (MB): peak = 2617.109 ; gain = 0.000 
+// Tcl Message: INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param. INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2807.258 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:01:57 ; elapsed = 00:06:47 . Memory (MB): peak = 3894.816 ; gain = 2174.238 
+// Tcl Message: 15 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:02:43 ; elapsed = 00:10:03 . Memory (MB): peak = 3894.816 ; gain = 2827.285 
+// OpenDesignTask elapsed time: 609.3s
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2383 ms. Increasing delay to 7149 ms.
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  5779 ms.
+// WARNING: updateGUI() is taking  2436 ms.
+// WARNING: updateGUI() is taking  2391 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  7459 ms.
+// Elapsed time: 615 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 337); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 337); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 337); // nWaveform: addNotify
+// [GUI Memory]: 253 MB (+6021kb) [00:17:50]
+// PAPropertyPanels.initPanels (memory.vhd) elapsed time: 0.4s
+// WARNING: HEventQueue.dispatchEvent() is taking  12675 ms.
+// Thread: pool-2-thread-1
+// 	at java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+// 	at java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+// 	at java.base@11.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Update Runs Swing Worker Thread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.experiment.F.aOv(SourceFile:368)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: AWT-Shutdown
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.Object.wait(Object.java:328)
+// 	at java.desktop@11.0.2/sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:291)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Batik CleanerThread
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: Thread-1
+// Thread: Common-Cleaner
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// 	at java.base@11.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+// Thread: AWT-EventQueue-1
+// 	at ui.views.simulator.executive.simulationi.SimulationExecutive_getLatestTime(Native Method)
+// 	at ui.views.N.c.a.kce(SourceFile:440)
+// 	at ui.views.N.a.kbj(SourceFile:291)
+// 	at ui.views.Q.d.a.ae(SourceFile:210)
+// 	at ui.views.Q.u.al(SourceFile:1139)
+// 	at ui.views.Q.u.o(SourceFile:1076)
+// 	at ui.views.c.t.b.d.run(SourceFile:107)
+// 	at ui.views.c.t.b.d.a(SourceFile:334)
+// 	at ui.views.Q.b.k.I(SourceFile:412)
+// 	at ui.views.Q.b.x.mouseReleased(SourceFile:270)
+// 	at java.desktop@11.0.2/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+// 	at java.desktop@11.0.2/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+// 	at java.desktop@11.0.2/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+// 	at java.desktop@11.0.2/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+// 	at java.desktop@11.0.2/java.awt.Component.processMouseEvent(Component.java:6632)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+// 	at java.desktop@11.0.2/java.awt.Component.processEvent(Component.java:6397)
+// 	at java.desktop@11.0.2/java.awt.Container.processEvent(Container.java:2263)
+// 	at ui.utils.swing.y.B.processEvent(SourceFile:599)
+// 	at java.desktop@11.0.2/java.awt.Component.dispatchEventImpl(Component.java:5008)
+// 	at java.desktop@11.0.2/java.awt.Container.dispatchEventImpl(Container.java:2321)
+// 	at java.desktop@11.0.2/java.awt.Component.dispatchEvent(Component.java:4840)
+// 	at java.desktop@11.0.2/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+// 	at java.desktop@11.0.2/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+// 	at java.desktop@11.0.2/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+// 	at java.desktop@11.0.2/java.awt.Container.dispatchEventImpl(Container.java:2307)
+// 	at java.desktop@11.0.2/java.awt.Window.dispatchEventImpl(Window.java:2772)
+// 	at java.desktop@11.0.2/java.awt.Component.dispatchEvent(Component.java:4840)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$4.run(EventQueue.java:721)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$4.run(EventQueue.java:715)
+// 	at java.base@11.0.2/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@11.0.2/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+// 	at java.base@11.0.2/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$5.run(EventQueue.java:745)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$5.run(EventQueue.java:743)
+// 	at java.base@11.0.2/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@11.0.2/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+// 	at ui.frmwork.a.d.dispatchEvent(SourceFile:92)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+// Thread: Refresh Filesets Swing Worker Thread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.design.z.aOv(SourceFile:2503)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: AWT-Windows
+// 	at java.desktop@11.0.2/sun.awt.windows.WToolkit.eventLoop(Native Method)
+// 	at java.desktop@11.0.2/sun.awt.windows.WToolkit.run(WToolkit.java:303)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: pool-3-thread-1
+// 	at java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+// 	at java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+// 	at java.base@11.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Finalizer
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.base@11.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+// Thread: SyntheticaCleanerThread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1885)
+// Thread: main
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.c(SourceFile:1139)
+// 	at ui.PlanAhead.jswMain(SourceFile:1186)
+// Thread: Java2D Disposer
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.desktop@11.0.2/sun.java2d.Disposer.run(Disposer.java:144)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: pool-1-thread-1
+// 	at java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@11.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+// 	at java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+// 	at java.base@11.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+// 	at java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Process Messages Thread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.frmwork.c.h.aOv(SourceFile:133)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: SyntheticaAnimation 25
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: SyntheticaAnimation 70
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Signal Dispatcher
+// Thread: Monitor HEventQueue Thread
+// 	at java.base@11.0.2/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@11.0.2/java.lang.Thread.getAllStackTraces(Thread.java:1657)
+// 	at ui.utils.d.c.iqN(SourceFile:558)
+// 	at ui.frmwork.a.e.aOv(SourceFile:144)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: hw_ila_monitor
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.Object.wait(Object.java:328)
+// 	at java.base@11.0.2/java.util.TimerThread.mainLoop(Timer.java:527)
+// 	at java.base@11.0.2/java.util.TimerThread.run(Timer.java:506)
+// Thread: Image Animator 0
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at java.desktop@11.0.2/sun.awt.image.GifFrame.dispose(GifImageDecoder.java:669)
+// 	at java.desktop@11.0.2/sun.awt.image.GifImageDecoder.readImage(GifImageDecoder.java:458)
+// 	at java.desktop@11.0.2/sun.awt.image.GifImageDecoder.produceImage(GifImageDecoder.java:212)
+// 	at java.desktop@11.0.2/sun.awt.image.InputStreamImageSource.doFetch(InputStreamImageSource.java:269)
+// 	at java.desktop@11.0.2/sun.awt.image.ImageFetcher.fetchloop(ImageFetcher.java:212)
+// 	at java.desktop@11.0.2/sun.awt.image.ImageFetcher.run(ImageFetcher.java:176)
+// Thread: Reference Handler
+// 	at java.base@11.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+// 	at java.base@11.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+// Thread: TimerQueue
+// 	at java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@11.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+// 	at java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+// 	at java.base@11.0.2/java.util.concurrent.DelayQueue.take(DelayQueue.java:229)
+// 	at java.desktop@11.0.2/javax.swing.TimerQueue.run(TimerQueue.java:171)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Attach Listener
+// Thread: SyntheticaAnimation 50
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.lnf.b.run(SourceFile:100)
+// WARNING: HEventQueue.dispatchEvent() is taking  5604 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// WARNING: HEventQueue.dispatchEvent() is taking  2728 ms.
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1650 ms.
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+// WARNING: HEventQueue.dispatchEvent() is taking  13127 ms.
+// Elapsed time: 16 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // E
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (cr):  Relaunch Simulation : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3336 ms.
+// Tcl Message: relaunch_sim 
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: suspend_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:53 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_2' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'testebenchc' in fileset 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj testebenchc_vlog.prj" 
+// Tcl Message: "xvhdl --incr --relax -prj testebenchc_vhdl.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd" into library mito INFO: [VRFC 10-3107] analyzing entity 'memory' 
+// Tcl Message: run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:01:12 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '72' seconds 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:01:32 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xelab -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator v2020.3.0 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log  Using 2 slave threads. 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 2142ms to process. Increasing delay to 7000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2142 ms.
+// Tcl Message: Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis 
+// Tcl Message: Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 Compiling package ieee.numeric_std Compiling package ieee.std_logic_arith Compiling package ieee.std_logic_unsigned Compiling package mito.mito_pkg Compiling module oi.glbl Compiling architecture rtl of entity mito.control_unit [control_unit_default] Compiling architecture rtl of entity mito.data_path [data_path_default] Compiling architecture rtl of entity mito.memory [memory_default] Compiling architecture rtl of entity mito.miTo [mito_default] Compiling architecture behavioral of entity oi.testebenchc 
+// Tcl Message: Built simulation snapshot testebenchc_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:01:51 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '111' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:01:52 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Vivado Simulator v2020.3.0 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HEventQueue.dispatchEvent() is taking  1069 ms.
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 189 MB. Current time: 7/4/21, 4:12:00 PM BRT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: relaunch_xsim_kernel: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3894.816 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:14 ; elapsed = 00:04:25 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// 'a' command handler elapsed time: 269 seconds
+// Elapsed time: 269 seconds
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 340); // nWaveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 189 MB. Current time: 7/4/21, 4:12:08 PM BRT
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:11 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // n
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:17 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:20 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:21 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:21 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:23 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:12:30 PM BRT
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.vhd", 1); // m
+selectCodeEditor("memory.vhd", 247, 119); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  4754 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 9722 ms. Increasing delay to 29166 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 511ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2851 ms.
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// TclEventType: ELABORATE_START
+// Tcl Message: load Versal unisim library load Versal unisim library 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:38 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] INFO: [Synth 8-3491] module 'control_unit' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:16' bound to instance 'control_unit_i' of component 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:42] INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] INFO: [Synth 8-3491] module 'data_path' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:17' bound to instance 'data_path_i' of component 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:60] INFO: [Synth 8-638] synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'data_path' (2#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] INFO: [Synth 8-3491] module 'memory' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:17' bound to instance 'memory_i' of component 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:80] INFO: [Synth 8-638] synthesizing module 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'memory' (3#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] INFO: [Synth 8-256] done synthesizing module 'miTo' (4#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:41 ; elapsed = 00:02:49 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:03:47 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:44 ; elapsed = 00:03:47 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 190 MB. Current time: 7/4/21, 4:17:28 PM BRT
+// Engine heap size: 2,252 MB. GUI used memory: 193 MB. Current time: 7/4/21, 4:17:45 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  18640 ms.
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 82 MB. Current time: 7/4/21, 4:18:34 PM BRT
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_floorplan.xgd elapsed time: 5s
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_detail.xgd elapsed time: 9.7s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 12.8s
+// Schematic: addNotify
+// Schematic: addNotify
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  44043 ms.
+// TclEventType: NOC_COMPILE_STARTED
+// WARNING: HEventQueue.dispatchEvent() is taking  1393 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.391 . Memory (MB): peak = 3894.816 ; gain = 0.000 
+// Tcl Message: INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param. INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// TclEventType: NOC_COMPILE_STARTED
+// TclEventType: NOC_COMPILE_FINISHED
+// Tcl Message: refresh_design: Time (s): cpu = 00:01:24 ; elapsed = 00:05:50 . Memory (MB): peak = 3911.777 ; gain = 16.961 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 2799ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2799 ms.
+// Elapsed time: 353 seconds
+dismissDialog("Reloading"); // bz
+// WARNING: HEventQueue.dispatchEvent() is taking  20066 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1644 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 224 ms. Decreasing delay to 2224 ms.
+// Elapsed time: 37 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// [Engine Memory]: 2,377 MB (+13647kb) [00:31:00]
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  6386 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,395 MB. GUI used memory: 194 MB. Current time: 7/4/21, 4:20:14 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1842 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+// WARNING: HEventQueue.dispatchEvent() is taking  1829 ms.
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // E
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (cr):  Relaunch Simulation : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2193 ms.
+// Tcl Message: relaunch_sim 
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1510 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,423 MB. GUI used memory: 193 MB. Current time: 7/4/21, 4:20:43 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1836 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  17081 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1924 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1611 ms.
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 197.5s
+// WARNING: HEventQueue.dispatchEvent() is taking  7494 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2507 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2181 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1482 ms.
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HEventQueue.dispatchEvent() is taking  1500 ms.
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: suspend_sim: Time (s): cpu = 00:00:17 ; elapsed = 00:03:06 . Memory (MB): peak = 4485.570 ; gain = 264.355 
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_2' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'testebenchc' in fileset 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj testebenchc_vlog.prj" 
+// Tcl Message: "xvhdl --incr --relax -prj testebenchc_vhdl.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd" into library mito INFO: [VRFC 10-3107] analyzing entity 'memory' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:01:09 . Memory (MB): peak = 4485.570 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '69' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:01:50 . Memory (MB): peak = 4485.570 ; gain = 0.000 
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xelab -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator v2020.3.0 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis 
+// Tcl Message: Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 Compiling package ieee.numeric_std Compiling package ieee.std_logic_arith 
+// Tcl Message: Compiling package ieee.std_logic_unsigned Compiling package mito.mito_pkg 
+// Tcl Message: Compiling module oi.glbl Compiling architecture rtl of entity mito.control_unit [control_unit_default] Compiling architecture rtl of entity mito.data_path [data_path_default] Compiling architecture rtl of entity mito.memory [memory_default] Compiling architecture rtl of entity mito.miTo [mito_default] Compiling architecture behavioral of entity oi.testebenchc 
+// Tcl Message: Built simulation snapshot testebenchc_behav 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run_program: Time (s): cpu = 00:00:07 ; elapsed = 00:02:12 . Memory (MB): peak = 4485.570 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '132' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:02:13 . Memory (MB): peak = 4485.570 ; gain = 0.000 Vivado Simulator v2020.3.0 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,423 MB. GUI used memory: 193 MB. Current time: 7/4/21, 4:27:49 PM BRT
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// PAPropertyPanels.initPanels (memory.vhd) elapsed time: 0.3s
+// Tcl Message: relaunch_xsim_kernel: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 4485.570 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:32 ; elapsed = 00:07:24 . Memory (MB): peak = 4485.570 ; gain = 264.355 
+// 'a' command handler elapsed time: 446 seconds
+// Elapsed time: 447 seconds
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4193 ms. Increasing delay to 12579 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,423 MB. GUI used memory: 194 MB. Current time: 7/4/21, 4:27:57 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5 ms. Decreasing delay to 2005 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5599 ms. Increasing delay to 16797 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5 ms. Decreasing delay to 2005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1299 ms.
+// Elapsed time: 308 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.vhd", 1); // m
+selectCodeEditor("memory.vhd", 294, 323); // bP
+typeControlKey((HResource) null, "memory.vhd", 'v'); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  3553 ms.
+selectCodeEditor("memory.vhd", 388, 108); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  8523 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 2133ms to process. Increasing delay to 8000 ms.
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  2133 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 932ms to process. Increasing delay to 5000 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 11776 ms. Increasing delay to 35328 ms.
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  6531 ms.
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// TclEventType: ELABORATE_START
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1549ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1549 ms.
+// Tcl Message: load Versal unisim library load Versal unisim library 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:55 . Memory (MB): peak = 4491.258 ; gain = 5.688 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] INFO: [Synth 8-3491] module 'control_unit' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:16' bound to instance 'control_unit_i' of component 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:42] INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] INFO: [Synth 8-3491] module 'data_path' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:17' bound to instance 'data_path_i' of component 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:60] INFO: [Synth 8-638] synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'data_path' (2#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] INFO: [Synth 8-3491] module 'memory' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:17' bound to instance 'memory_i' of component 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:80] INFO: [Synth 8-638] synthesizing module 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'memory' (3#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] INFO: [Synth 8-256] done synthesizing module 'miTo' (4#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 4544ms to process. Increasing delay to 9000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4544 ms.
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:03:10 . Memory (MB): peak = 4491.270 ; gain = 5.699 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:03:42 . Memory (MB): peak = 4491.270 ; gain = 5.699 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:54 ; elapsed = 00:03:42 . Memory (MB): peak = 4491.270 ; gain = 5.699 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,423 MB. GUI used memory: 192 MB. Current time: 7/4/21, 4:38:10 PM BRT
+// Engine heap size: 2,423 MB. GUI used memory: 200 MB. Current time: 7/4/21, 4:38:50 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  50867 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1236 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2947 ms.
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,423 MB. GUI used memory: 86 MB. Current time: 7/4/21, 4:40:13 PM BRT
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_floorplan.xgd elapsed time: 3.7s
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_detail.xgd elapsed time: 11.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 13.9s
+// WARNING: updateGUI() is taking  2293 ms.
+// Schematic: addNotify
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  67229 ms.
+// TclEventType: NOC_COMPILE_STARTED
+// WARNING: HEventQueue.dispatchEvent() is taking  1105 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.622 . Memory (MB): peak = 4493.750 ; gain = 0.000 
+// Tcl Message: INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param. INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// TclEventType: NOC_COMPILE_STARTED
+// TclEventType: NOC_COMPILE_FINISHED
+// Tcl Message: refresh_design: Time (s): cpu = 00:01:32 ; elapsed = 00:07:21 . Memory (MB): peak = 4493.750 ; gain = 8.180 
+// WARNING: HEventQueue.dispatchEvent() is taking  2961 ms.
+// Elapsed time: 445 seconds
+dismissDialog("Reloading"); // bz
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 196 ms. Decreasing delay to 2196 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8006 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,490 MB. GUI used memory: 191 MB. Current time: 7/4/21, 4:42:40 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  3406 ms.
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 146.6s
+// WARNING: HEventQueue.dispatchEvent() is taking  2921 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6071 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5243 ms.
+// Elapsed time: 575 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// WARNING: updateGUI() is taking  2693 ms.
+// WARNING: updateGUI() is taking  1202 ms.
+// Elapsed time: 15 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  24799 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4292 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// WARNING: HEventQueue.dispatchEvent() is taking  2586 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// WARNING: HEventQueue.dispatchEvent() is taking  3327 ms.
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectCodeEditor("memory.vhd", 196, 118, false, false, false, true, false); // bP - Popup Trigger
+// WARNING: HEventQueue.dispatchEvent() is taking  10923 ms.
+// Elapsed time: 11 seconds
+selectCodeEditor("memory.vhd", 196, 118); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // E
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (cr):  Relaunch Simulation : addNotify
+// Tcl Message: relaunch_sim 
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: suspend_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:59 . Memory (MB): peak = 4612.258 ; gain = 0.000 
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_2' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'testebenchc' in fileset 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_2'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj testebenchc_vlog.prj" 
+// Tcl Message: "xvhdl --incr --relax -prj testebenchc_vhdl.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd" into library mito INFO: [VRFC 10-3107] analyzing entity 'memory' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:46 . Memory (MB): peak = 4612.258 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '46' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:01:25 . Memory (MB): peak = 4612.258 ; gain = 0.000 
+// Tcl Message: Command: launch_simulation -simset sim_2 -mode behavioral 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.sim/sim_2/behav/xsim' 
+// Tcl Message: "xelab -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator v2020.3.0 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 6b16120a2d824e05bcce677717a8d6fd --incr --debug typical --relax --mt 2 -L mito -L oi -L unisims_ver -L secureip --snapshot testebenchc_behav oi.testebenchc oi.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 Compiling package ieee.numeric_std Compiling package ieee.std_logic_arith 
+// Tcl Message: Compiling package ieee.std_logic_unsigned Compiling package mito.mito_pkg Compiling module oi.glbl Compiling architecture rtl of entity mito.control_unit [control_unit_default] Compiling architecture rtl of entity mito.data_path [data_path_default] Compiling architecture rtl of entity mito.memory [memory_default] Compiling architecture rtl of entity mito.miTo [mito_default] Compiling architecture behavioral of entity oi.testebenchc 
+// Tcl Message: Built simulation snapshot testebenchc_behav 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:01:03 . Memory (MB): peak = 4612.258 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '63' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:01:04 . Memory (MB): peak = 4612.258 ; gain = 0.000 Vivado Simulator v2020.3.0 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 189 MB. Current time: 7/4/21, 4:55:46 PM BRT
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 4622.191 ; gain = 9.934 relaunch_xsim_kernel: Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 4622.191 ; gain = 9.934 relaunch_sim: Time (s): cpu = 00:00:15 ; elapsed = 00:03:50 . Memory (MB): peak = 4622.191 ; gain = 9.934 
+// 'a' command handler elapsed time: 233 seconds
+// Elapsed time: 233 seconds
+dismissDialog("Relaunch Simulation"); // b
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3485 ms. Increasing delay to 10455 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1751 ms. Decreasing delay to 3751 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2423 ms. Increasing delay to 7269 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 190 MB. Current time: 7/4/21, 5:04:53 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 190 MB. Current time: 7/4/21, 5:04:55 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1193 ms.
+// Elapsed time: 593 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 188 MB. Current time: 7/4/21, 5:05:42 PM BRT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), data_path_i : data_path(rtl) (data_path.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), data_path_i : data_path(rtl) (data_path.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1870 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1447 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), control_unit_i : control_unit(rtl) (control_unit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, miTo(rtl) (miTo.vhd), control_unit_i : control_unit(rtl) (control_unit.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1367 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 834ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1450 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1805 ms.
+// Elapsed time: 65 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// WARNING: updateGUI() is taking  1119 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1238 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4661 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 30 seconds
+selectCodeEditor("control_unit.vhd", 319, 301); // bP
+selectCodeEditor("control_unit.vhd", 319, 301, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 84 seconds
+selectCodeEditor("control_unit.vhd", 207, 329); // bP
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2223 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2855 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7815 ms. Increasing delay to 23445 ms.
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// Elapsed time: 17 seconds
+selectCodeEditor("data_path.vhd", 340, 330); // bP
+selectCodeEditor("data_path.vhd", 195, 332); // bP
+selectCodeEditor("data_path.vhd", 195, 332, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("data_path.vhd", 277, 352); // bP
+selectCodeEditor("data_path.vhd", 277, 352, false, false, false, false, true); // bP - Double Click
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7 ms. Decreasing delay to 2007 ms.
+selectCodeEditor("data_path.vhd", 296, 316); // bP
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+// Elapsed time: 11 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, banco_de_registradores_r3[31:0]]", 15, true, false, false, false, true, false); // a - Popup Trigger - Node
+selectMenu("Radix"); // ah
+selectMenuItem((HResource) null, "Binary"); // Y
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 75 seconds
+selectMenu("Waveform Style"); // ah
+selectMenu("Waveform Style"); // ah
+selectMenu("Signal Color"); // ah
+selectMenu("Radix"); // ah
+// Elapsed time: 10 seconds
+selectMenuItem((HResource) null, "Unsigned Decimal"); // Y
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 192 MB. Current time: 7/4/21, 5:12:21 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// WARNING: updateGUI() is taking  1339 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg*", 0); // m
+// WARNING: HEventQueue.dispatchEvent() is taking  1445 ms.
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // E
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// WARNING: HEventQueue.dispatchEvent() is taking  6649 ms.
+// Tcl Message: save_wave_config {D:/32-bitMips-master_original8/32-bitMips-master/testebench_behav2.wcfg} 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// Tcl Message: save_wave_config: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 4626.910 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1705 ms. Increasing delay to 5115 ms.
+// Elapsed time: 38 seconds
+selectCodeEditor("data_path.vhd", 432, 217); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("data_path.vhd", 481, 78); // bP
+selectCodeEditor("data_path.vhd", 480, 104); // bP
+selectCodeEditor("data_path.vhd", 336, 57); // bP
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 4014 ms to process. Increasing delay to 2000 ms.
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  4328 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7689 ms. Increasing delay to 23067 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// Elapsed time: 226 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 192 MB. Current time: 7/4/21, 5:17:30 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:34 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:42 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:44 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:48 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:52 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 32 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, estado]", 15, false); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:17:59 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:18:04 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 192 MB. Current time: 7/4/21, 5:18:05 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 3126ms to process. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3126 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4592 ms. Increasing delay to 13776 ms.
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// Elapsed time: 51 seconds
+selectCodeEditor("data_path.vhd", 408, 296); // bP
+selectCodeEditor("data_path.vhd", 401, 313); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("data_path.vhd", 216, 74); // bP
+selectCodeEditor("data_path.vhd", 216, 74, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("data_path.vhd", 278, 89); // bP
+selectCodeEditor("data_path.vhd", 278, 89, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.vhd", 1); // m
+selectCodeEditor("memory.vhd", 195, 77); // bP
+selectCodeEditor("memory.vhd", 216, 144); // bP
+selectCodeEditor("memory.vhd", 247, 213); // bP
+selectCodeEditor("memory.vhd", 250, 213); // bP
+selectCodeEditor("memory.vhd", 250, 213); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.vhd", 3); // m
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2117 ms. Increasing delay to 6351 ms.
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:18 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:19 PM BRT
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:19 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:20 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:23 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:24 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:24 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:25 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:27 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:28 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:20:30 PM BRT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data_path.vhd", 2); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("data_path.vhd", 329, 364); // bP
+selectCodeEditor("data_path.vhd", 329, 364, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "data_path.vhd", 'c'); // bP
+typeControlKey((HResource) null, "data_path.vhd", 'c'); // bP
+selectCodeEditor("data_path.vhd", 188, 263); // bP
+typeControlKey((HResource) null, "data_path.vhd", 'v'); // bP
+selectCodeEditor("data_path.vhd", 367, 261); // bP
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  4487 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3927 ms.
+// Elapsed time: 13 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// PAPropertyPanels.initPanels (control_unit.vhd) elapsed time: 0.3s
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  5118 ms.
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4446 ms. Increasing delay to 13338 ms.
+// TclEventType: ELABORATE_START
+// Tcl Message: load Versal unisim library load Versal unisim library 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:01:46 . Memory (MB): peak = 4644.090 ; gain = 0.879 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// WARNING: HEventQueue.dispatchEvent() is taking  1160 ms.
+// Tcl Message: ERROR: [Synth 8-944] 0 definitions of operator "-" match here [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:148] 
+// Tcl Message: INFO: [Synth 8-2810] unit rtl ignored due to previous errors [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// TclEventType: ELABORATE_FAIL
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:01:58 . Memory (MB): peak = 4644.090 ; gain = 0.879 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:22 ; elapsed = 00:02:10 . Memory (MB): peak = 4644.090 ; gain = 0.879 
+// Tcl Message: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.  
+// U (cr): Critical Messages: addNotify
+// Elapsed time: 131 seconds
+dismissDialog("Reloading"); // bz
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// Elapsed time: 53 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // U
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g: FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1, General Messages, [Synth 8-944] 0 definitions of operator - match here [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:148]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\32-bitMips-master_original8\32-bitMips-master\miTo.srcs\sources_1\new\data_path.vhd;-;;-;16;-;line;-;148;-;;-;16;-;"); // ah
+// Elapsed time: 11 seconds
+selectCodeEditor("data_path.vhd", 341, 176); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1429 ms. Increasing delay to 4287 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1920ms to process. Increasing delay to 7000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1920 ms.
+// Elapsed time: 26 seconds
+typeControlKey((HResource) null, "data_path.vhd", 'c'); // bP
+typeControlKey((HResource) null, "data_path.vhd", 'v'); // bP
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  8816 ms.
+// Elapsed time: 18 seconds
+selectCodeEditor("data_path.vhd", 186, 151); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10031 ms. Increasing delay to 30093 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3 ms. Decreasing delay to 2003 ms.
+// Elapsed time: 68 seconds
+selectCodeEditor("data_path.vhd", 359, 168); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1293 ms. Increasing delay to 3879 ms.
+selectCodeEditor("data_path.vhd", 341, 179); // bP
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1787ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1787 ms.
+selectCodeEditor("data_path.vhd", 351, 163); // bP
+selectCodeEditor("data_path.vhd", 340, 163); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4868 ms. Increasing delay to 14604 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// Elapsed time: 183 seconds
+selectCodeEditor("data_path.vhd", 92, 165); // bP
+typeControlKey((HResource) null, "data_path.vhd", 'v'); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1563 ms. Increasing delay to 4689 ms.
+selectCodeEditor("data_path.vhd", 166, 135); // bP
+selectCodeEditor("data_path.vhd", 92, 160); // bP
+selectCodeEditor("data_path.vhd", 184, 103); // bP
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  6462 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2152 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4236 ms. Increasing delay to 12708 ms.
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// Elapsed time: 10 seconds
+selectCodeEditor("data_path.vhd", 88, 158); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5 ms. Decreasing delay to 2005 ms.
+selectCodeEditor("data_path.vhd", 130, 138); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4241 ms. Increasing delay to 12723 ms.
+// Elapsed time: 13 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: load Versal unisim library load Versal unisim library 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 4645.746 ; gain = 1.656 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// Tcl Message: INFO: [Synth 8-3491] module 'control_unit' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:16' bound to instance 'control_unit_i' of component 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:42] INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] 
+// TclEventType: ELABORATE_FAIL
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] INFO: [Synth 8-3491] module 'data_path' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:17' bound to instance 'data_path_i' of component 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:60] INFO: [Synth 8-638] synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// Tcl Message: ERROR: [Synth 8-690] width mismatch in assignment; target has 32 bits, source has 31 bits [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:148] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] ERROR: [Synth 8-285] failed synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 4645.746 ; gain = 1.656 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:25 . Memory (MB): peak = 4645.746 ; gain = 1.656 
+// Tcl Message: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.  
+// U (cr): Critical Messages: addNotify
+// Elapsed time: 25 seconds
+dismissDialog("Reloading"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // U
+selectCodeEditor("data_path.vhd", 84, 161); // bP
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6 ms. Decreasing delay to 2006 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2800 ms. Increasing delay to 8400 ms.
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  11439 ms.
+// Elapsed time: 20 seconds
+selectCodeEditor("data_path.vhd", 134, 161); // bP
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 2096ms to process. Increasing delay to 11000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2096 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6724 ms. Increasing delay to 20172 ms.
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 3106ms to process. Increasing delay to 12000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3106 ms.
+// TclEventType: ELABORATE_START
+// Tcl Message: load Versal unisim library load Versal unisim library 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 4645.945 ; gain = 0.199 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'miTo' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] INFO: [Synth 8-3491] module 'control_unit' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:16' bound to instance 'control_unit_i' of component 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:42] INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/control_unit.vhd:36] INFO: [Synth 8-3491] module 'data_path' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:17' bound to instance 'data_path_i' of component 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:60] INFO: [Synth 8-638] synthesizing module 'data_path' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'data_path' (2#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/data_path.vhd:38] INFO: [Synth 8-3491] module 'memory' declared at 'D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:17' bound to instance 'memory_i' of component 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:80] INFO: [Synth 8-638] synthesizing module 'memory' [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 342ms to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'memory' (3#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/memory.vhd:28] INFO: [Synth 8-256] done synthesizing module 'miTo' (4#1) [D:/32-bitMips-master_original8/32-bitMips-master/miTo.srcs/sources_1/new/miTo.vhd:22] 
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1560ms to process. Increasing delay to 8000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1560 ms.
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:01:06 ; elapsed = 00:04:14 . Memory (MB): peak = 4648.242 ; gain = 2.496 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// WARNING: HEventQueue.dispatchEvent() is taking  12047 ms.
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:05:06 . Memory (MB): peak = 4663.438 ; gain = 17.691 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:12 ; elapsed = 00:05:06 . Memory (MB): peak = 4663.438 ; gain = 17.691 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 191 MB. Current time: 7/4/21, 5:38:21 PM BRT
+// Engine heap size: 2,494 MB. GUI used memory: 203 MB. Current time: 7/4/21, 5:38:57 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  41099 ms.
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,494 MB. GUI used memory: 83 MB. Current time: 7/4/21, 5:41:54 PM BRT
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_floorplan.xgd elapsed time: 13.3s
+// Xgd.load filename: C:/Xilinx/Vivado/2020.3/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v8.xgd; ZipEntry: xcvc1802_detail.xgd elapsed time: 7.4s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 19s
+// WARNING: updateGUI() is taking  1517 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  65964 ms.
+// TclEventType: NOC_COMPILE_STARTED
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.835 . Memory (MB): peak = 4665.688 ; gain = 0.000 
+// Tcl Message: INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param. INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// TclEventType: NOC_COMPILE_STARTED
+// TclEventType: NOC_COMPILE_FINISHED
+// Tcl Message: refresh_design: Time (s): cpu = 00:01:56 ; elapsed = 00:10:39 . Memory (MB): peak = 5740.953 ; gain = 1095.207 
+// WARNING: HEventQueue.dispatchEvent() is taking  1879 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1953ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1953 ms.
+// Elapsed time: 641 seconds
+dismissDialog("Reloading"); // bz
+// WARNING: HEventQueue.dispatchEvent() is taking  4041 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1181 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 73 ms. Decreasing delay to 2073 ms.
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1994 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 50, 94); // nWaveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  5427 ms.
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1193 ms.
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "testebench_behav2.wcfg", 0); // m
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // E
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (cr):  Relaunch Simulation : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2443 ms.
+// Tcl Message: relaunch_sim 
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1044 ms.

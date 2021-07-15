@@ -1,0 +1,341 @@
+/*
+
+Xilinx Vivado v2020.3 (64-bit) [Major: 2020, Minor: 3]
+SW Build: 3173277 on Wed Apr  7 05:07:49 MDT 2021
+IP Build: 3174024 on Wed Apr  7 23:42:35 MDT 2021
+
+Process ID (PID): 7196
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jul 04 17:56:27 BRT 2021
+Time zone: 	Brasilia Standard Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Colaborador
+User home directory: C:/Users/Colaborador
+User working directory: D:/32-bitMips-master_original8/32-bitMips-master
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.3
+RDI_DATADIR: C:/Xilinx/Vivado/2020.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.3/bin
+
+Vivado preferences file location: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/vivado.xml
+Vivado preferences directory: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/
+Vivado layouts directory: C:/Users/Colaborador/AppData/Roaming/Xilinx/Vivado/2020.3/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/32-bitMips-master_original8/32-bitMips-master/vivado.log
+Vivado journal file location: 	D:/32-bitMips-master_original8/32-bitMips-master/vivado.jou
+Engine tmp dir: 	D:/32-bitMips-master_original8/32-bitMips-master/.Xil/Vivado-7196-DESKTOP-2EKH4B3
+
+Xilinx Environment Variables
+----------------------------
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.3
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 715 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  10954 ms.
+// Thread: SyntheticaCleanerThread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1885)
+// Thread: main
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.c(SourceFile:1139)
+// 	at ui.PlanAhead.jswMain(SourceFile:1186)
+// Thread: AWT-Shutdown
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.Object.wait(Object.java:328)
+// 	at java.desktop@11.0.2/sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:291)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Process Messages Thread
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at ui.frmwork.c.h.aOv(SourceFile:133)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Thread-1
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.Object.wait(Object.java:328)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.invokeAndWait(EventQueue.java:1361)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.invokeAndWait(EventQueue.java:1342)
+// 	at java.desktop@11.0.2/javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1480)
+// 	at ui.frmwork.E.fireTclEvent(SourceFile:334)
+// Thread: Finalizer
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.base@11.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+// Thread: Batik CleanerThread
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: Monitor HEventQueue Thread
+// 	at java.base@11.0.2/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@11.0.2/java.lang.Thread.getAllStackTraces(Thread.java:1657)
+// 	at ui.utils.d.c.iqN(SourceFile:558)
+// 	at ui.frmwork.a.e.aOv(SourceFile:144)
+// 	at ui.frmwork.y.run(SourceFile:203)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: Common-Cleaner
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// 	at java.base@11.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+// Thread: Java2D Disposer
+// 	at java.base@11.0.2/java.lang.Object.wait(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@11.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.desktop@11.0.2/sun.java2d.Disposer.run(Disposer.java:144)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@11.0.2/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Attach Listener
+// Thread: Signal Dispatcher
+// Thread: AWT-Windows
+// 	at java.desktop@11.0.2/sun.awt.windows.WToolkit.eventLoop(Native Method)
+// 	at java.desktop@11.0.2/sun.awt.windows.WToolkit.run(WToolkit.java:303)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: TimerQueue
+// 	at java.base@11.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@11.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+// 	at java.base@11.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+// 	at java.base@11.0.2/java.util.concurrent.DelayQueue.take(DelayQueue.java:229)
+// 	at java.desktop@11.0.2/javax.swing.TimerQueue.run(TimerQueue.java:171)
+// 	at java.base@11.0.2/java.lang.Thread.run(Thread.java:834)
+// Thread: AWT-EventQueue-0
+// 	at java.base@11.0.2/java.io.WinNTFileSystem.delete0(Native Method)
+// 	at java.base@11.0.2/java.io.WinNTFileSystem.delete(WinNTFileSystem.java:573)
+// 	at java.base@11.0.2/java.io.File.delete(File.java:1053)
+// 	at java.desktop@11.0.2/javax.imageio.stream.FileCacheImageInputStream$StreamDisposerRecord.dispose(FileCacheImageInputStream.java:299)
+// 	at java.desktop@11.0.2/javax.imageio.stream.FileCacheImageInputStream.close(FileCacheImageInputStream.java:254)
+// 	at java.desktop@11.0.2/javax.imageio.ImageIO.read(ImageIO.java:1471)
+// 	at java.desktop@11.0.2/javax.imageio.ImageIO.read(ImageIO.java:1420)
+// 	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:268)
+// 	at de.javasoft.plaf.synthetica.painter.ScrollBarPainter.paintScrollBarThumbBackground(ScrollBarPainter.java:167)
+// 	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintScrollBarThumbBackground(SyntheticaPainter.java:599)
+// 	at java.desktop@11.0.2/javax.swing.plaf.synth.ParsedSynthStyle$DelegatingPainter.paintScrollBarThumbBackground(ParsedSynthStyle.java:1715)
+// 	at java.desktop@11.0.2/javax.swing.plaf.synth.SynthScrollBarUI.paintThumb(SynthScrollBarUI.java:319)
+// 	at java.desktop@11.0.2/javax.swing.plaf.synth.SynthScrollBarUI.paint(SynthScrollBarUI.java:277)
+// 	at java.desktop@11.0.2/javax.swing.plaf.synth.SynthScrollBarUI.update(SynthScrollBarUI.java:245)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintComponent(JComponent.java:797)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1074)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JSplitPane.paintChildren(JSplitPane.java:1024)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1083)
+// 	at java.desktop@11.0.2/javax.swing.JLayeredPane.paint(JLayeredPane.java:590)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintChildren(JComponent.java:907)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paintToOffscreen(JComponent.java:5262)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1643)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1618)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1556)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager.paint(RepaintManager.java:1323)
+// 	at java.desktop@11.0.2/javax.swing.JComponent.paint(JComponent.java:1060)
+// 	at java.desktop@11.0.2/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+// 	at java.desktop@11.0.2/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:78)
+// 	at java.desktop@11.0.2/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:115)
+// 	at java.desktop@11.0.2/java.awt.Container.paint(Container.java:2002)
+// 	at java.desktop@11.0.2/java.awt.Window.paint(Window.java:3940)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$4.run(RepaintManager.java:876)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$4.run(RepaintManager.java:848)
+// 	at java.base@11.0.2/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@11.0.2/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:848)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:823)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:772)
+// 	at java.desktop@11.0.2/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1890)
+// 	at java.desktop@11.0.2/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$4.run(EventQueue.java:721)
+// 	at java.desktop@11.0.2/java.awt.EventQueue$4.run(EventQueue.java:715)
+// 	at java.base@11.0.2/java.security.AccessController.doPrivileged(Native Method)
+// 	at java.base@11.0.2/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+// 	at java.desktop@11.0.2/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+// 	at ui.frmwork.a.d.dispatchEvent(SourceFile:92)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+// 	at java.desktop@11.0.2/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+// Thread: Reference Handler
+// 	at java.base@11.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@11.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+// 	at java.base@11.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+// WARNING: HEventQueue.dispatchEvent() is taking  3444 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1524ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1546 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 47 MB. Current time: 7/4/21, 5:56:29 PM BRT
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\32-bitMips-master_original8\32-bitMips-master\miTo.xpr. Version: Vivado v2020.3 
+// bz (cr):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3629 ms.
+// Tcl Message: open_project D:/32-bitMips-master_original8/32-bitMips-master/miTo.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/32-bitMips-master_original8/32-bitMips-master/miTo.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+66601kb) [00:02:33]
+// [Engine Memory]: 715 MB (+597981kb) [00:02:33]
+// [GUI Memory]: 86 MB (+17491kb) [00:02:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  14228 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1316 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'. 
+// Project name: miTo; location: D:/32-bitMips-master_original8/32-bitMips-master; part: xcvc1802-viva1596-1LHP-i-L
+// [GUI Memory]: 93 MB (+2426kb) [00:02:47]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2063 ms. Increasing delay to 6189 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2571 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:47 . Memory (MB): peak = 1068.426 ; gain = 0.000 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1458ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1458 ms.
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// [GUI Memory]: 102 MB (+5457kb) [00:03:29]
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Starting synth_design Using part: xcvc1802-viva1596-1LHP-i-L Top: miTo 
+// HMemoryUtils.trashcanNow. Engine heap size: 772 MB. GUI used memory: 69 MB. Current time: 7/4/21, 5:58:26 PM BRT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,158 MB. GUI used memory: 68 MB. Current time: 7/4/21, 5:58:56 PM BRT
+// [Engine Memory]: 1,319 MB (+595668kb) [00:05:20]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 966ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 3290ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3291 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  38725 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  17479 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 78107 ms. Increasing delay to 3000 ms.
+// TclEventType: ELABORATE_START
+// WARNING: HEventQueue.dispatchEvent() is taking  181457 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,391 MB. GUI used memory: 68 MB. Current time: 7/4/21, 6:04:57 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  6383 ms.
+// TclEventType: ELABORATE_START
+// [Engine Memory]: 1,391 MB (+6929kb) [00:10:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,447 MB. GUI used memory: 68 MB. Current time: 7/4/21, 6:06:03 PM BRT
+// WARNING: HEventQueue.dispatchEvent() is taking  1212 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 724ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1602 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  25052 ms.
